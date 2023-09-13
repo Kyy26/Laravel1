@@ -1,5 +1,4 @@
 @extends('template.master')
-
 @section('content')
 <div class="card card-primary">
               <div class="card-header">
@@ -17,7 +16,7 @@
                     <input type="text" class="form-control" name="nama_anggota" placeholder="Input Nama Anggota">
                         <label>Jenis Kelamin</label>
                         <select type="text" name="jk_anggota" class="form-control">
-                          <option></option>
+                          <option disabled selected >Pilih Jenis Kelaminx </option>
                           <option value="L">Laki-Laki</option>
                           <option value="P">Perempuan</option>
                         </select>
@@ -31,6 +30,7 @@
                 <!-- /.card-body -->
                 <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-primary">Reset</button>
                 </div>
               </form>
             </div>
