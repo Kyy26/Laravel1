@@ -56,7 +56,7 @@
             </ul>
           </li> -->
           <li class="nav-item">
-            <a href="{{ route('anggota') }}" class="nav-link">
+            <a href="{{ route('anggota.index') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Anggota
@@ -64,7 +64,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('buku') }}" class="nav-link">
+            <a href="{{ route('buku.index') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Buku
@@ -72,7 +72,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('petugas') }}" class="nav-link">
+            <a href="{{ route('petugas.index') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Petugas
@@ -80,7 +80,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('pengembalian') }}" class="nav-link">
+            <a href="{{ route('pengembalian.index') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 pengembalian
@@ -88,7 +88,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('peminjaman') }}" class="nav-link">
+            <a href="{{ route('peminjaman.index') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Peminjaman
@@ -96,7 +96,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('rak') }}" class="nav-link">
+            <a href="{{ route('rak.index') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Rak

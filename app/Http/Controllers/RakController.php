@@ -19,7 +19,7 @@ class RakController extends Controller
      */
     public function create()
     {
-        return view('template.Perpus.rak');
+        return view('rak.rak');
     }
 
     /**

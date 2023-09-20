@@ -25,9 +25,15 @@ Route::get('/', function () {
 })->name('blank_page');
 
 // Route::get('/', [AuthorController::class, 'index'])->name('index');
-Route::get('/anggota', [AnggotaController::class, 'create'])->name('anggota');
-Route::get('/buku', [BukuController::class, 'create'])->name('buku');
-Route::get('/petugas', [PetugasController::class, 'create'])->name('petugas');
-Route::get('/rak', [RakController::class, 'create'])->name('rak');
-Route::get('/peminjaman', [PeminjamanController::class, 'create'])->name('peminjaman');
-Route::get('/pengembalian', [PengembalianController::class, 'create'])->name('pengembalian');
+// Route::get('/anggota', [AnggotaController::class, 'create'])->name('anggota');
+// Route::get('/buku', [BukuController::class, 'create'])->name('buku');
+// Route::get('/petugas', [PetugasController::class, 'create'])->name('petugas');
+// Route::get('/rak', [RakController::class, 'create'])->name('rak');
+// Route::get('/peminjaman', [PeminjamanController::class, 'create'])->name('peminjaman');
+// Route::get('/pengembalian', [PengembalianController::class, 'create'])->name('pengembalian');
+Route::resource('/anggota', AnggotaController::class);
+Route::resource('/petugas', PetugasController::class);
+Route::resource('/buku', BukuController::class);
+Route::resource('/rak', RakController::class);
+Route::resource('/peminjaman', PeminjamanController::class);
+Route::resource('/pengembalian', PengembalianController::class);

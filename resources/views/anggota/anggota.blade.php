@@ -6,7 +6,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="/anggota/store" method="POST">
+              <form action="{{ route('anggota.store') }}" method="POST">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
@@ -16,7 +16,7 @@
                     <input type="text" class="form-control" name="nama_anggota" placeholder="Input Nama Anggota">
                         <label>Jenis Kelamin</label>
                         <select type="text" name="jk_anggota" class="form-control">
-                          <option disabled selected >Pilih Jenis Kelaminx </option>
+                          <option disabled selected >Pilih Jenis Kelamin </option>
                           <option value="L">Laki-Laki</option>
                           <option value="P">Perempuan</option>
                         </select>
